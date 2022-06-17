@@ -13,6 +13,6 @@ spec:
     spec:
       containers:
       - name: mylogin-container
-        image: maha4niac/mahalogin:1
+        image: maha4ntvc/mahalogin:1
         ports:
         - containerPort: 8080
