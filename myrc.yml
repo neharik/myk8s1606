@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: mylogin-rc
+  name:  mylogin-rc
 spec:
   replicas: 4
   selector:
@@ -9,10 +9,10 @@ spec:
   template:
     metadata:
      labels:
-       app: mylogin
+        app: mylogin
     spec:
       containers:
       - name: mylogin-container
-        image: maha4ntvc/mahalogin:1
+        image: maha4niac/mahalogin:1
         ports:
         - containerPort: 8080
